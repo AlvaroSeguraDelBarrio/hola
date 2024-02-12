@@ -1,0 +1,19 @@
+<!ELEMNT bdcorreo(email)+>
+<!ELEMNT email(destinatario,asunto,cuerpo)>
+<!ELEMNT destinatario (#PCDATA)>
+<!ELEMNT asunto (#PCDATA)>
+<!ELEMNT cuerpo (#PCDATA)>
+
+<bdcorreo>
+    <email>
+        <destinatario>PutoSd@gmail.com</destinatario>
+        <asunto>Feliciades guapo</asunto>
+        <cuerpo>Estas despedido</cuerpo>
+    </email>
+    <email>
+        <destinatario>Sergio@gmail.com</destinatario>
+        <asunto></asunto>
+        <cuerpo></cuerpo>
+
+    </email>
+</bdcorreo>
